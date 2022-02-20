@@ -1,7 +1,7 @@
 data "aws_caller_identity" "my_account" {}
 
 resource "aws_s3_bucket" "logs" {
-  bucket = "logs-bucket-${data.aws_caller_identity.my_account.account_id}"
+  bucket        = "logs-bucket-${data.aws_caller_identity.my_account.account_id}"
   force_destroy = true
 }
 
