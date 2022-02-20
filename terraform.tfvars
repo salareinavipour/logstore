@@ -1,3 +1,3 @@
-region = "<fill it>"
-access_key = "<fill it>"
-secret_key = "<fill it>"
+region     = "mock_region"
+access_key = "mock_access_key"
+secret_key = "mock_secret_key"
